@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+crossorigin="anonymous">
+
+<button [routerLink]="['/home']">Home</button>
+<div class="container">
+  <h2>Edit author here:</h2>
+  <form>
+    <div class="form-group">
+      <label for="Name">Name:</label>
+      <input type="text" class="form-control" placeholder="Enter Name" name="userName" [(ngModel)]="user.userName">
+    </div>
+    <button type="submit" class="btn-success" (click)="onSubmit2(user)">Submit</button>
+  </form>
+</div>
+<router-outlet></router-outlet>
