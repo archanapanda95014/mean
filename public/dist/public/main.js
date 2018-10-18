@@ -185,7 +185,7 @@ module.exports = ".all{\n    width:80%;\n    margin:auto\n}"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\" integrity=\"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\"\n  crossorigin=\"anonymous\">\n<div class=\"all\">\n  <h1>Favorite Authors</h1>\n  <router-outlet></router-outlet>\n</div>"
+module.exports = "<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\" integrity=\"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\"\n  crossorigin=\"anonymous\">\n<div class=\"all\">\n  <h1>Favorite Authors !!!</h1>\n  <router-outlet></router-outlet>\n</div>"
 
 /***/ }),
 
